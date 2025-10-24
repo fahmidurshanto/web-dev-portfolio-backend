@@ -19,6 +19,7 @@ const serviceRoutes = require('../routes/serviceRoutes');
 // Middleware
 const allowedOrigins = [
     'https://fahmidurshanto.vercel.app',
+    'https://fahmidurshanto-backend-alpha.vercel.app',
     'http://localhost:5173'
 ];
 
