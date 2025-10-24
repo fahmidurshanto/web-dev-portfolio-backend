@@ -14,6 +14,7 @@ const educationRoutes = require('../routes/educationRoutes');
 const messageRoutes = require('../routes/messageRoutes');
 const userRoutes = require('../routes/userRoutes');
 const experienceRoutes = require('../routes/experienceRoutes');
+const serviceRoutes = require('../routes/serviceRoutes');
 
 // Middleware
 const allowedOrigins = [
@@ -47,6 +48,7 @@ app.use('/api/education', educationRoutes);
 app.use('/api/messages', messageRoutes);
 app.use('/api/users', userRoutes);
 app.use('/api/experiences', experienceRoutes);
+app.use('/api/services', serviceRoutes);
 
 // Basic Route
 app.get('/', (req, res) => {
